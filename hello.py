@@ -4,11 +4,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'У меня получилось!'
+    return "I am ready!"
 
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
-
-# python3 -m venv venv && . venv/bin/activate
-# pip install flask
